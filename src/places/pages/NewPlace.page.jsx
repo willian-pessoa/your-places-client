@@ -1,10 +1,14 @@
 import React from "react";
 
+import Input from "../../shared/components/FormElements/Input";
+
+import "./NewPlace.scss"
+
 const NewPlace = () => {
   return (
-    <div>
-      <h1>New Place</h1>
-    </div>
+    <form className="place-form">
+      <Input element="input" />
+    </form>
   );
 };
 
